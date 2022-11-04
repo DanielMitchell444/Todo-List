@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+</style>
+<body>
+
+ <nav>
+   <h1>To-Do List</h1> 
+  <i class="fa fa-bars"></i>
+ </nav>
+
+ <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+   <div class = "content">
+    <h1>Enter a task</h1>
+    <input type = "text" class = 'taskName' placeholder="task-name" />
+    <input type = "text" class = "scheduled" placeholder="schedule MM-DD-YYYY" />
+    <button type = "button" class = "submit">Submit Task</button>
+  </div>
+  </div>
+
+</div>
+
+ <div class = "sidebar">
+  <div class = "menu">
+    <button class = "add">Inbox</button>
+    <button class = "today">Today</button>
+    <button class = "7">Next 7 days</button>
+    <button class = "past">Past</button>
+</div>
+</div>
+
+<div class = "content">
+ <div class = "content-buttons">
+ <button class = "add-task" id = "add">Add Task</button>
+</div>
+
+<div class = "task-content">
+
+</div>
+</div>
+
+</body>
+</html> 
+
+<script src="app.js"></script>
